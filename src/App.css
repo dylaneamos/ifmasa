@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .home,
+  .IFMASA-Memberprofile,
+  .IFMASA-Leadership,
+  .products,
+  .Contact-us {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+
+  .home {
+    background-image: url('/public/images/img-home.jpg');
+  }
+  
+  .IFMASA-Memberprofile {
+    background-image: url('/public/images/img-5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+
+  .IFMASA-Leadership {
+    background-image: url('/public/images/img-3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .products {
+    background-image: url('/public/images/img-1.jpg');
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  
+  .Contact-us {
+    background-image: url('/public/images/img-8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
+  .contact-containeer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .contact-info {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-item {
+    margin: 0 1rem;
+  }
+  
+  
+  .contact-iteem h2 {
+    font-size: 1.2rem;
+  }
+  
+  .contact-iteem p {
+    margin: 0.5rem 0;
+  }
+  
+  .contact-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-map iframe {
+    width: 350px;
+    height: 200px;
+  }
+  
+  
+  .contact-introo {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-forrm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-groupp {
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  textarea {
+    width: 350px;
+    height: 200px;
+  }
+
+  .submit-buttoon {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .submit-buttoon:hover {
+    background-color: #333;
+  }
+  
+  @media screen and (max-width: 960px) {
+
+    .home,
+  .IFMASA-Memberprofile,
+  .IFMASA-Leadership,
+  .products,
+  .Contact-us {
+    height: 120vh;
+    width:  100%;
+    align-items: center;
+    justify-content: center;
+  }
+    .home,
+  .IFMASA-Memberprofile,
+  .IFMASA-Leadership,
+  .products,
+  .Contact-us >h1 {
+    height: 120vh;
+    width:  100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px ;
+    margin-top: -100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home,
+  .IFMASA-Memberprofile,
+  .IFMASA-Leadership,
+  .products,
+  .Contact-us >h1 {
+    height: 120vh;
+    width:  100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px ;
+    margin-top: -100px;
+  }
+  
+    .contact-info {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-item {
+      margin: 0;
+      margin-bottom: 1rem;
+    }
+    .contact-item >p {
+      font-size: 14px;
+    }
+}
+    
